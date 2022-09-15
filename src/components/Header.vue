@@ -26,14 +26,14 @@
             />
           </svg>
         </button>
-        <h2
+        <!-- <h2
           class="text-md text-indigo-800 ml-3 lg:block hidden px-5 p-2 rounded-md bg-indigo-200"
         >
           Welcome back, Mohammad Sahrullah
-        </h2>
+        </h2> -->
       </div>
       <div class="mr-5 flex">
-        <div
+        <!-- <div
           class="input-box border dark:bg-gray-900 dark:border-gray-700 rounded-md mr-5 hidden lg:w-search w-full box-border lg:flex md:flex focus-within:bg-gray-100 dark:focus-within:bg-gray-700"
         >
           <span class="text-3xl p-2 text-gray-400"
@@ -44,7 +44,7 @@
             placeholder="Search..."
             class="p-3 w-full bg-white dark:bg-gray-900 rounded-md outline-none focus:bg-gray-100 dark:focus:bg-gray-700"
           />
-        </div>
+        </div> -->
         <button
           id="theme-toggle"
           type="button"
@@ -76,9 +76,9 @@
           </svg>
         </button>
 
-        <button class="mr-5 text-2xl text-gray-500">
+        <!-- <button class="mr-5 text-2xl text-gray-500">
           <Icon icon="clarity:notification-line" />
-        </button>
+        </button> -->
         <button @click="menuToggle" @blur="menuToggleBlur">
           <div
             class="user-avatar flex hover:bg-gray-100 dark:hover:bg-gray-700 p-1 cursor-pointer rounded-md"
@@ -102,7 +102,7 @@
           >
             <div class="py-3 px-4 text-sm text-gray-900 dark:text-gray-200">
               <div>Logged As</div>
-              <div class="font-medium truncate">Moh Sahrullah</div>
+              <div class="font-medium truncate">Dev User</div>
             </div>
             <ul
               class="py-1 text-sm text-gray-700 dark:text-gray-200"
@@ -120,13 +120,6 @@
                   href="#"
                   class="block py-2 px-4 hover:bg-primary hover:text-white"
                   >Settings</a
-                >
-              </li>
-              <li>
-                <a
-                  href="#"
-                  class="block py-2 px-4 hover:bg-primary hover:text-white"
-                  >Github</a
                 >
               </li>
             </ul>

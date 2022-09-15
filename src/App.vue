@@ -10,7 +10,7 @@
     <div class="flex-auto w-full overflow-auto h-screen" id="body-scroll">
       <Header />
       <router-view />
-      <Footer />
+      <!-- <Footer /> -->
     </div>
   </div>
   <!-- end app -->

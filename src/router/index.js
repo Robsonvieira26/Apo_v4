@@ -9,7 +9,8 @@ import Vbadges from "../views/components/badges.vue";
 import Vbreadcumb from "../views/components/breadcumbs.vue";
 import Vbutton from "../views/components/button.vue";
 import Vcard from "../views/components/card.vue";
-var appname = " - Windzo Dashboard Admin Template";
+import Evaluation from "../views/components/evaluation.vue";
+var appname = " - APO Digital";
 
 const routes = [
   // Routes
@@ -18,6 +19,12 @@ const routes = [
     name: "Dashboard",
     component: Dashboard,
     meta: { title: "Dashboard " + appname },
+  },
+  {
+    path: "/component/evaluation",
+    name: "Avaliacao",
+    component: Evaluation,
+    meta: { title: "Avaliação" + appname },
   },
 
   // Components based Routes
@@ -57,6 +64,7 @@ const routes = [
     component: Vcard,
     meta: { title: "Card" + appname },
   },
+  
 ];
 
 const router = createRouter({
