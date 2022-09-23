@@ -10,6 +10,7 @@ import Vbreadcumb from "../views/components/breadcumbs.vue";
 import Vbutton from "../views/components/button.vue";
 import Vcard from "../views/components/card.vue";
 import Evaluation from "../views/components/evaluation.vue";
+import NewEvaluation from "../views/components/newEvaluation.vue";
 var appname = " - APO Digital";
 
 const routes = [
@@ -24,9 +25,20 @@ const routes = [
     path: "/component/evaluation",
     name: "Avaliacao",
     component: Evaluation,
-    meta: { title: "Avaliação" + appname },
+    meta: { title: "Avaliações" + appname },
   },
-
+  {
+    path: "/component/newEvaluation",
+    name: "Avaliações - Criar/Editar",
+    component: NewEvaluation,
+    meta: { title: "Avaliações - Criar/Editar" + appname },
+  },
+  // {
+  //   path: "/component/accordionTest",
+  //   name: "Avaliações - Criar/Editar",
+  //   component: AccordionTest,
+  //   meta: { title: "Test" + appname },
+  // },
   // Components based Routes
   {
     path: "/component/alert",
